@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, 'Courier New', Courier, monospace;
+    background-color: rgb(61, 64, 91);
+}
+
+.menu {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header .menu nav {}
+
+header .menu nav a {
+    text-decoration: none;
+    color: rgb(244, 241, 222);
+    padding: 10px 13px;
+    margin: 0 5px 0 5px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header .menu nav a:hover {
+    background-color: rgb(244, 241, 222);
+    border-radius: 15px;
+    color: rgb(129, 178, 154);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.container .perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0 20px;
+    width: 900px;
+}
+
+.titles{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container .perfil h1, .container .perfil h2{
+    color: rgb(244, 241, 222);
+    text-align: ;
+    margin: 0;
+}
+
+.container .perfil h1{
+    font-size: 70px;
+}
+
+.container .perfil h1 span{
+    color: rgb(224, 122, 95);
+}
+.container .perfil h2{
+    font-size: 30px;
+}
+
+.container .perfil img{
+    border-radius: 50%; 
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 16px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+/* SECCIONES */
+
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 900px;
+    align-items: center;
+}
+
+.container2a{
+    height: 200px;
+    width: 800px;
+    border-radius: 18px;
+    padding: 10px 30px;
+    box-shadow: 10px 10px 16px 1px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bio h2, .habilidades h2, .proyectos h2{
+    color: rgb(242, 204, 143);
+    font-size: 24px;
+    margin: 0;
+}
+
+.bio p, .habilidades ul, .proyectos ul{
+    color: rgb(244, 241, 222);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.habilidades h2{
+    color: rgb(129, 178, 154);
+}
+
+.proyectos h2{
+    color: rgb(224, 122, 95);
+}
+
+.bio:hover, .habilidades:hover, .proyectos:hover{
+    background-color: rgb(244, 241, 222);
+}
+
+.bio:hover p, .habilidades:hover ul, .proyectos:hover ul{
+    color: rgb(61, 64, 91);
+}
+
+.habilidades ul, .proyectos ul{
+    columns: 2;
+}
+
+.container3{
+    background-color: rgb(129, 178, 154);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.container3 a{
+    padding: 8px 8px;
+    margin: 0 8px 0 8px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(61, 64, 91);
+}
